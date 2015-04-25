@@ -11,7 +11,7 @@ LOCAL_SRC_FILES := \
    OMXdebug.cpp \
    OMXdebug_specific.c
 
-LOCAL_LDLIBS := -llog -lpthread -lrt 
+LOCAL_LDLIBS := -llog
 LOCAL_CFLAGS += -DFREQ_SCALING_ALLOWED -DANDROID
 
 LOCAL_MODULE:= libstelpcutils
